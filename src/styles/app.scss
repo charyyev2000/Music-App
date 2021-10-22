@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(54, 54, 54);
+}
+
+h3,
+h4 {
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+}
+
+@import "./song";
+@import "./player";
+@import "./library";
